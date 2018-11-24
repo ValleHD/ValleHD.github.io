@@ -2,8 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    background-color: #FF0000;
     min-height: 56px;
     max-height: 500px;
 
@@ -66,9 +65,8 @@
  * Site footer
  */
 .site-footer {
-    
     background-color: #FF0000;
-    
+    position: relative;
 }
 
 .sm-list {
