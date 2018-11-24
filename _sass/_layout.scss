@@ -106,7 +106,7 @@
 .sm-list {
     border: 3px solid #FF0000;
     display: grid;
-    grid-template-columns: 25% repeat (5, 1fr) 25%;
+    grid-template-columns: 25% 1fr 1fr 1fr 1fr 1fr 25%;
     grid-template-areas: " . a b c d e . ";
     
 }
@@ -134,7 +134,7 @@
 }
 
 .e {
-    grid-area e;
+    grid-area: e;
 }
 
 
