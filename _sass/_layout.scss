@@ -93,6 +93,40 @@
     }
 }
 
+/**
+*Site Menu
+*/
+
+.menu {
+    border: 3px solid #FF0000;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 1fr 1fr 1fr 1fr 10%;
+    grid-template-areas: " . ABOUT MUSIC LOVE VISION MEDIA CONTACT . ";
+}
+
+.about {
+    grid-area: ABOUT;
+}
+
+.music {
+    grid-area: MUSIC;
+}
+
+.love {
+    grid-area: LOVE;
+}
+
+.vision {
+    grid-area: VISION;
+}
+
+.media {
+    grid-area: MEDIA;
+}
+
+.contact {
+    grid-area: CONTACT;
+}
 
 
 /**
