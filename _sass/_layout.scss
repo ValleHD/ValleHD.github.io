@@ -115,13 +115,30 @@
 }
 
 .icon {
-    width: 30px;
-    display: inline;
     background-color: #FFF234;
     border: 1px solid #FFFFFF;
     padding: 5px;
 }
 
+.a {
+    grid-column: 3;
+}
+
+.b {
+    grid-column: 4;
+}
+
+.c {
+    grid-column: 5;
+}
+
+.d {
+    grid-column: 6;
+}
+
+.e {
+    grid-column: 7;
+}
 
 
 
