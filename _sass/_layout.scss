@@ -105,8 +105,11 @@
 
 .sm-list {
     display: grid;
-    grid-template-columns: repeat (9, 1fr);
+    grid-template-areas: " . . a b c d e . . "
+   
 }
+
+ <!-- grid-template-columns: repeat (9, 1fr); -->
 
 .icon {
     background-color: #FFF234;
@@ -115,23 +118,23 @@
 }
 
 .a {
-    grid-column: 3;
+    grid-area: a;
 }
 
 .b {
-    grid-column: 4;
+    grid-area: b;
 }
 
 .c {
-    grid-column: 5;
+    grid-area: c;
 }
 
 .d {
-    grid-column: 6;
+    grid-area: d;
 }
 
 .e {
-    grid-column: 7;
+    grid-area e;
 }
 
 
