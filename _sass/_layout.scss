@@ -104,13 +104,14 @@
 }
 
 .sm-list {
-    display: grid;
-    grid-template-areas: " . . a b c d e . . "
     border: 3px solid #FF0000;
-   
+    display: grid;
+    grid-template-columns: repeat (9, 1fr);
+    grid-template-areas: " . . a b c d e . . ";
+    
 }
 
- <!-- grid-template-columns: repeat (9, 1fr); -->
+ <!--  -->
 
 .icon {
     background-color: #FFF234;
