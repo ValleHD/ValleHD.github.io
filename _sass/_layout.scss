@@ -98,14 +98,15 @@
  * Site footer
  */
 .site-footer {
-    border: 1px solid $grey-color-light;
+    border-up: 1px solid $grey-color-light;
+    border-bottom: 10px solid #FFFFFF
     padding: $spacing-unit 0;
     background-color: #FF0000;
     text-align: center;
 }
 
 .Icon {
-    display: inline-block;
+    display: inline;
     beckground-color: #FFFFFF;
     border: 1px solid #FFFFFF;
 }
