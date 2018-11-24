@@ -99,16 +99,21 @@
  */
 .site-footer {
     border-up: 1px solid $grey-color-light;
-    border-bottom: 10px solid #FFFFFF
-    padding: $spacing-unit 0;
+    border-bottom: 10px solid #FFFFFF;
+    border-left: 1px solid $grey-color-light;
+    border-right: 1px solid $grey-color-light;
+    padding-left: 20%;
+    padding-right: 20%;
     background-color: #FF0000;
     text-align: center;
+    display: inline;
 }
 
 .icon {
     display: inline;
     beckground-color: #FFFFFF;
     border: 1px solid #FFFFFF;
+    margin: 0 auto;
 }
 
 
