@@ -102,10 +102,12 @@
     display: grid;
     grid-template-columns: 10% 1fr 1fr 1fr 1fr 1fr 1fr 10%;
     grid-template-areas: " . ABOUT MUSIC LOVE VISION MEDIA CONTACT . ";
+    background-color: #FF0000;
 }
 
 .about {
     grid-area: ABOUT;
+    color: #FF1234;
 }
 
 .music {
