@@ -29,7 +29,7 @@
 */
 
 .menu {
-    border: 30px solid #FF0000;
+    border: 15px solid #FF0000;
     display: grid;
     grid-template-columns: 10% 1fr 1fr 1fr 1fr 1fr 1fr 10%;
     grid-template-areas: " . ABOUT MUSIC LOVE VISION MEDIA CONTACT . ";
@@ -39,26 +39,32 @@
 
 .about {
     grid-area: ABOUT;
+    text-align: center;
  }
 
 .music {
     grid-area: MUSIC;
+    text-align: center;
 }
 
 .love {
     grid-area: LOVE;
+    text-align: center;
 }
 
 .vision {
     grid-area: VISION;
+    text-align: center;
 }
 
 .media {
     grid-area: MEDIA;
+    text-align: center;
 }
 
 .contact {
     grid-area: CONTACT;
+    text-align: center;
 }
 
 
