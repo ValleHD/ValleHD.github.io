@@ -29,11 +29,12 @@
 */
 
 .menu {
-    border: 3px solid #FF0000;
+    border: 30px solid #FF0000;
     display: grid;
     grid-template-columns: 10% 1fr 1fr 1fr 1fr 1fr 1fr 10%;
     grid-template-areas: " . ABOUT MUSIC LOVE VISION MEDIA CONTACT . ";
-    background-color: #FF0000;
+    background-color: #FFFFFF;
+    text-align: center;
 }
 
 .about {
