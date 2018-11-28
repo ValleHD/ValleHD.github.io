@@ -87,6 +87,7 @@
     border: 1px solid #000000;
     grid-column: 2/5;
     grid-row: 3/4;
+    transform: rotate(-10deg);
 }
 
 .booking {
@@ -95,6 +96,7 @@
     border: 1px solid #000000;
     grid-column: 6/11;
     grid-row: 2/4;
+    transform: rotate(4deg);
 }
 
 .wannabe {
@@ -111,6 +113,7 @@
     border: 1px solid #000000;
     grid-column: 3/5;
     grid-row: 4/5;
+    transform: rotate(18deg);
 }
 
 .pictures {
@@ -119,6 +122,7 @@
     border: 1px solid #000000;
     grid-column: 8/10;
     grid-row: 4/6;
+    transform: rotate(-22deg);
 }
 
 
