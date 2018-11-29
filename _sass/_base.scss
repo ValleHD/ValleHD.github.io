@@ -150,8 +150,12 @@ pre {
     }
 }
 
-
-
+.wrapper {
+    @media (min-width: 25em) {
+        display: grid;
+        grid-template-columns: 1fr 66% 1fr;
+    }
+}
 /**
  * Wrapper
 
