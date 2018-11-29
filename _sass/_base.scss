@@ -152,12 +152,10 @@ pre {
 
 .wrapper {
     @media (min-width: 50em) {
-        display: grid;
-        grid-template-columns: 1fr 66% 1fr;
-        grid-template-areas: " . CONTAINER . "
+        align: center;
             
         .container {
-            grid-area: CONTAINER;
+            width: 70%;
             }
     }
 }
