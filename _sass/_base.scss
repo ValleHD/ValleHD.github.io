@@ -154,8 +154,15 @@ pre {
     @media (min-width: 50em) {
         display: grid;
         grid-template-columns: 1fr 66% 1fr;
+        grid-template-areas: " . CONTAINER . "
+            
+        .container {
+            grid-area: CONTAINER;
+            }
     }
 }
+
+
 /**
  * Wrapper
 
