@@ -38,9 +38,10 @@
     grid-template-areas: " . ABOUT MUSIC LOVE VISION MEDIA CONTACT . ";
  }
 
+.menu div {text-align:center;}
+
 .about {
     grid-area: ABOUT;
-    text-align: center;
  }
 
 .music {
@@ -50,22 +51,18 @@
 
 .love {
     grid-area: LOVE;
-    text-align: center;
 }
 
 .vision {
     grid-area: VISION;
-    text-align: center;
 }
 
 .media {
     grid-area: MEDIA;
-    text-align: center;
 }
 
 .contact {
     grid-area: CONTACT;
-    text-align: center;
 }
 
 /**
