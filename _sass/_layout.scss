@@ -38,10 +38,10 @@
     
     @media(max-width:30em){
         height: 60px;
-        grid-template-colums: 20% 1fr 1fr 1fr 20%;
+        grid-template-colums: 15% 1fr 5% 1fr 5% 1fr 15%;
         grid-template-rows: 50% 50%;
-        grid-template-areas: " . ABOUT MUSIC LOVE . "
-                             " . VISION MEDIA CONTACT . ";
+        grid-template-areas: " . ABOUT . MUSIC . LOVE . "
+                             " . VISION . MEDIA . CONTACT . ";
     }
  }
 
