@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 /**
  * Site header
  */
@@ -69,7 +71,6 @@
 
 .main {
     height: 400px;
-    box-sizing: border-box;
     border: 5px solid #FF0000;
     display: grid;
     grid-template-columns: repeat (10, 1fr);
