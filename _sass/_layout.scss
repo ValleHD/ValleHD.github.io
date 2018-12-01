@@ -36,7 +36,7 @@
     grid-template-columns: 10% 1fr 1fr 1fr 1fr 1fr 1fr 10%;
     grid-template-areas: " . ABOUT MUSIC LOVE VISION MEDIA CONTACT . ";
     
-    @media(max-width:30em){
+    @media(max-width:35em){
         height: 60px;
         grid-template-colums: 15% 1fr 5% 1fr 5% 1fr 15%;
         grid-template-rows: 50% 50%;
